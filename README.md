@@ -1,5 +1,6 @@
 # Grab Spotify Artist Albums and Songs
 
+## [Example](http://mujykun.pythonanywhere.com/artist/7n2Ycct7Beij7Dj7meI4X0)
 
 This program allows users to access the `/artist/{artist-id}` endpoint and get back a JSON of the Singles and Albums
 from that artist as well as the songs in those albums and filtering out specific albums.
