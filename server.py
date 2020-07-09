@@ -16,7 +16,7 @@ ARTIST ID is taken through /artist/{artist-id}
 """
 
 
-@app.route('', methods=['GET'])
+@app.route('/', methods=['GET'])
 def github():
     return 'https://github.com/MujyKun/artist-albums'
 
