@@ -1,7 +1,5 @@
 from flask import Flask, jsonify, request
 import Spotify
-import pprint
-pp = pprint.PrettyPrinter(indent=2)
 
 app = Flask(__name__)
 
