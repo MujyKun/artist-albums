@@ -22,7 +22,7 @@ def github():
 
 
 @app.route('/artist/<id>', methods=['GET'])
-def query_records(id):
+def artist_information(id):
     existing_albums = request.get_json()
     send_back = Spotify.get_albums_and_songs(artist_id=id, existing_albums=existing_albums)
     if send_back is None:
